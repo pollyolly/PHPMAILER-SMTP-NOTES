@@ -3,6 +3,10 @@ Check connection
 ```
 $telnet <smtp-host-ip> 25
 ```
+Install nmap to check ports and connections
+```
+$apt-get install nmap
+```
 Check SMTP available ports
 ```
 $nmap <smtp-host-ip>
