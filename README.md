@@ -76,3 +76,9 @@ Relay Access Denied:
 3. smtp in-bound accept sender email
 4. smtp out-bound sent the email to recipient (note if this is blocked)
 ```
+### Links Debugging
+```
+1. https://github.com/PHPMailer/PHPMailer/issues/1322
+2. https://itsyndicate.org/blog/relay-access-denied-solution/
+3. https://serversitters.com/how-to-correct-554-5-7-1-relay-access-denied-email-errors-and-prevent-them-in-the-future.html
+```
