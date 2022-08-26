@@ -1,13 +1,13 @@
 ## SMTP-Notes
-Check connection
+### Check connection
 ```
 $telnet <smtp-host-ip> 25
 ```
-Install nmap to check ports and connections
+### Install nmap to check ports and connections
 ```
 $apt-get install nmap
 ```
-Check SMTP available ports
+### Check SMTP available ports
 ```
 $nmap <smtp-host-ip>
 
@@ -21,11 +21,11 @@ PORT     STATE SERVICE
 587/tcp  open  submission
 1720/tcp open  h323q931
 ```
-Check SMTP port
+### Check SMTP port
 ```
 $nmap -p<port> <smtp-host-ip>
 ```
-PHP Test Script
+### PHP Test Script
 ```
 <?php
 use PHPMailer\PHPMailer\PHPMailer;
