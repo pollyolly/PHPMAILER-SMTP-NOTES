@@ -1,4 +1,4 @@
-### SMTP-Notes
+## SMTP-Notes
 Check connection
 ```
 $telnet <smtp-host-ip> 25
