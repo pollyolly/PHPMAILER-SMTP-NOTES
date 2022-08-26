@@ -68,3 +68,11 @@ try {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
 ```
+### Remember
+```
+Relay Access Denied: 
+1. SMTP hosts, Authentication Type, Username and Password
+2. Recipient email and Sender email should be allowed by smtp
+3. smtp in-bound accept sender email
+4. smtp out-bound sent the email to recipient (note if this is blocked)
+```
