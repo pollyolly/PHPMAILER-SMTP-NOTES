@@ -11,7 +11,7 @@ Check SMTP available ports
 ```
 $nmap <smtp-host-ip>
 
-Nmap scan report for 10.16.11.129
+Nmap scan report for 10.xx.xx.xxx
 Host is up (0.0047s latency).
 Not shown: 995 filtered ports
 PORT     STATE SERVICE
