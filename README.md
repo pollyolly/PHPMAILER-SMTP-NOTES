@@ -1,14 +1,14 @@
 ## SMTP-Notes
 ### Check connection
-```
+```vim
 $telnet <smtp-host-ip> 25
 ```
 ### Install nmap to check ports and connections
-```
+```vim
 $apt-get install nmap
 ```
 ### Check SMTP available ports
-```
+```vim
 $nmap <smtp-host-ip>
 
 Nmap scan report for 10.xx.xx.xxx
@@ -22,11 +22,11 @@ PORT     STATE SERVICE
 1720/tcp open  h323q931
 ```
 ### Check SMTP port
-```
+```vim
 $nmap -p<port> <smtp-host-ip>
 ```
 ### PHP Test Script
-```
+```php
 <?php
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
